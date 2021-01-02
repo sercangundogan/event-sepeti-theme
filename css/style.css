@@ -92,7 +92,9 @@ button:hover {
     align-items: center;
     margin-top: 1rem;
 
-} .lead-text {
+} 
+
+.lead-text {
     flex: 1;
     flex-direction: column;
     justify-content: "center";
@@ -109,7 +111,9 @@ button:hover {
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
-} ul {
+} 
+
+ul {
     display: flex;
     flex-direction: row;
 }
