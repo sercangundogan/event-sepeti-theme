@@ -17,3 +17,6 @@ a {
 #navbar-search-bar-button:hover {
     opacity: 0.8;   
 }
+#mobile-navbar {
+    display: none;
+}

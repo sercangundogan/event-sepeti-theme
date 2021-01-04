@@ -17,5 +17,9 @@
     #message-button {
         margin-top: 1rem;
     }
+    
+    #mobile-navbar {
+        display: block;
+    }
 }
 
