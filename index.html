@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event App</title>
-
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
@@ -17,151 +18,111 @@
 </head>
 <body>
     <!-- Header -->
-    <div class="header">
-        <div class="logo">
-            <a href="./index.html"><img src="./images/logo.jpeg" alt="" srcset=""></a>
-        </div>
-        <ul class="navbar-links">
-            <!-- <li class="navbar-link">
-                <a href="">Keşfet</a>
-            </li> -->
-            <li class="navbar-link">
-                <a href="./login.html">Giriş</a>
-            </li>
-            <li class="navbar-link">
-                <a href="./register.html">Kaydol</a>
-            </li>
-        </ul>
-        </div>
+    <header class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+        <a href="index.html" class="h5 my-0 me-md-auto fw-bold fs-4">Event Sepeti</a>
+        <nav class="my-2 my-md-0 me-md-3">
+          <a class="p-2 fs-4 text-dark" href="./login.html">Giriş Yap</a>
+        </nav>
+        <nav>
+          <a class="p-2 fs-4 text-dark" href="./register.html">Kayıt Ol</a>
+        </nav>
+    </header>
+
+
+
 
     <!-- Main -->
-    <div class="main">
-        
-        <div class="lead-text">
-            <p style="font-weight: bold;">Lorem ipsum consectetur adipisicing elit. Temporibus reprehenderit nam consequuntur. Et ipsam,deleniti aperiam non?</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi velit, quod suscipit sit, fugiat expedita odit enim, distinctio totam tempora non magnam minus! Enim necessitatibus ut ullam repellat quis est!</p>
-        </div>
-        
-        <button>Lorem, ipsum.</button>
-        
-
-        <div class="main-content">
-
-            <p>Lorem, ipsum ipsum</p>
-            
-            <ul>
-                <li>
-                    <div>
-                        <p>Lorem, ipsum.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat similique soluta dicta corporis quos quaerat inventore minus beatae necessitatibus enim!</p>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <p>Lorem, ipsum.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat similique soluta dicta corporis quos quaerat inventore minus beatae necessitatibus enim!</p>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <p>Lorem, ipsum.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat similique soluta dicta corporis quos quaerat inventore minus beatae necessitatibus enim!</p>
-                    </div>
-                </li>
-            </ul>
-        </div>
-
-        <div>
-            <button>
-                Lorem, ipsum
-            </button>
-        </div>
-    </div>
-    
-    <hr>
-
-    <div class="footer"> 
-        <ul>
-            <div class="footer-logo">
-                <a href="index.html"><img src="./images/logo.jpeg" alt="" srcset=""></a>
+    <main class="container">  
+        <!-- <a href="./homepage.html" style="display: block; margin: 0 auto;">Giriş yapıldı</a> -->
+        <div class="row">
+            <div class="col-12 text-center">
+                <a href="/homepage.html"><button class="btn btn-danger">Giriş Yapıldı</button></a>
             </div>
-            <li>
-                <div>
-                    <p class="footer-link-title">Kategoriler</p>
-                    <div>
-                        <ul>
-                            <li>
-                                <a href="">Grafik</a>
-                            </li>
-                            <li>
-                                <a href="">Tasarım</a>
-                            </li>
-                            <li>
-                                <a href="">Ses</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <div>
-                    <p class="footer-link-title">Kategoriler</p>
-                    <div>
-                        <ul>
-                            <li>
-                                <a href="">Grafik</a>
-                            </li>
-                            <li>
-                                <a href="">Tasarım</a>
-                            </li>
-                            <li>
-                                <a href="">Ses</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <div>
-                    <p class="footer-link-title">Kategoriler</p>
-                    <div>
-                        <ul>
-                            <li>
-                                <a href="">Grafik</a>
-                            </li>
-                            <li>
-                                <a href="">Tasarım</a>
-                            </li>
-                            <li>
-                                <a href="">Ses</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <div class="social-media-links">
-                        <i class="fab fa-facebook-f"></i>
-                        <i class="fab fa-twitter"></i>
-                        <i class="fab fa-instagram"></i>
-                    </div>
-                    <!-- <div>
-                        <ul>
-                            <li>
-                                <a href="">Goole Play</a>
-                            </li>
-                            <li>
-                                <a href="">App Store</a>
-                            </li>
-                        </ul>
-                    </div> -->
-                </div>
-            </li>
             
-        </ul>
-    </div>
+            <div class="col-md-10 p-5 mx-auto ">
+                <div class="col-md-5 col-sm-10 mx-auto text-center">
+                    <p class="fs-3">Lorem ipsum consectetur adipisicing elit. Temporibus reprehenderit nam consequuntur. Et ipsam,deleniti aperiam non?</p>
+                    <p class="fs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi velit, quod suscipit sit, fugiat expedita odit enim, distinctio totam tempora non magnam minus! Enim necessitatibus ut ullam repellat quis est!</p>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="col-3 text-center mx-auto">
+                    <button type="button" class="btn btn-danger btn-lg">Lorem, ipsum.</button>
+                </div>
+            </div>
+        </div>    
+        
+        <div class="row my-5">
+
+            <div class="col-md-12 text-center p-3">
+                <h3><strong> Lorem, ipsum Lorem, ipsum dolor.</strong></h3>
+            </div>
+        
+            <div class="col-md-4 col-sm-12">
+                <p class="fs-4 text-center"><strong> Lorem, ipsum.</strong></p>
+                <p class="fs-5 px-4 py-1 text-center">Lorem ipsum dolor sit amet,  dshgdjgks consectetur adipisicing elit. Fugiat similique soluta dicta corporis quos quaerat inventore minus beatae necessitatibus enim!</p>
+            </div>
+
+            <div class="col-md-4 col-sm-12">
+                <p class="fs-4 text-center"><strong> Lorem, ipsum.</strong></p>
+                <p class="fs-5 px-4 py-1 text-center">Lorem dsfds f sdfdsfdsfipsum dolor sit amet, consectetur adipisicing elit. Fugiat similique soluta dicta corporis quos quaerat inventore minus beatae necessitatibus enim!</p>
+            </div>
+
+            <div class="col-md-4 col-sm-12">
+                <p class="fs-4 text-center"><strong> Lorem, ipsum.</strong></p>
+                <p class="fs-5 px-4 py-1 text-center">Lorem sdfdsfdsf dfdgsdf ipsum dolor sit amet, consectetur sdfdsgdsgd adipisicing elit. Fugiat similique soluta dicta corporis quos quaerat inventore minus beatae necessitatibus enim!</p>
+            </div>
+        </div>
+            
+        <div class="col-6 mx-auto mb-5 text-center">
+            <button type="button" class="btn btn-danger btn-lg">Lorem, ipsum.</button>
+        </div>
+        </div>
+        
+   
+    
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+          <div class="col-12 col-md">
+            <img class="mb-2" src="/images/logo.jpeg" alt="" width="24" height="19">
+            <small class="d-block mb-3 text-muted">&copy; 2017-2020</small>
+          </div>
+          <div class="col-6 col-md col-sm-12">
+            <h5>Kategoriler</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-secondary" href="#">Cool stuff</a></li>
+              <li><a class="link-secondary" href="#">Random feature</a></li>
+              <li><a class="link-secondary" href="#">Team feature</a></li>
+              <li><a class="link-secondary" href="#">Stuff for developers</a></li>
+              <li><a class="link-secondary" href="#">Another one</a></li>
+              <li><a class="link-secondary" href="#">Last time</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Kaynaklar</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-secondary" href="#">Resource</a></li>
+              <li><a class="link-secondary" href="#">Resource name</a></li>
+              <li><a class="link-secondary" href="#">Another resource</a></li>
+              <li><a class="link-secondary" href="#">Final resource</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Hakkımızda</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-secondary" href="#">Team</a></li>
+              <li><a class="link-secondary" href="#">Locations</a></li>
+              <li><a class="link-secondary" href="#">Privacy</a></li>
+              <li><a class="link-secondary" href="#">Terms</a></li>
+            </ul>
+          </div>
+        </div>
+    </footer>
+    </main>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    
 </body>
 </html>
